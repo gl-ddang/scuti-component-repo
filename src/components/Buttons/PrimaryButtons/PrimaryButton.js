@@ -16,16 +16,19 @@ const Button = styled.button`
 
   &:hover {
     text-decoration: ${(props) => (props.hover ? "underline" : "none")};
+    background-color: ${props => props.bgColorSecondary};
   }
 
   &:active {
     text-decoration: ${(props) => (props.active ? "underline" : "none")};
     font-weight: ${(props) => (props.active ? "bold" : "none")};
+    background-color: '${props => props.bgColorActive};'
   }
 
   &:focus {
     outline: ${(props) => (props.focus) ? props.bgColor : "transparent"} 1px solid;
     outline-offset: 4px;
+    background-color: ${props => props.bgColorSecondary};
   }
 
   &:disabled {
@@ -40,6 +43,8 @@ export const PrimaryButton = ({
   children,
   className,
   bgColor,
+  bgColorActive,
+  bgColorSecondary,
   fontColor,
   hover,
   active,
@@ -50,6 +55,8 @@ export const PrimaryButton = ({
     <Button
       className={className}
       bgColor={bgColor}
+      bgColorActive={bgColorActive}
+      bgColorSecondary={bgColorSecondary}
       fontColor={fontColor}
       hover={hover}
       active={active}
