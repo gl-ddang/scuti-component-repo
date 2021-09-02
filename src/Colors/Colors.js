@@ -17,6 +17,9 @@ const colors = {
     neutral400: '#737581',
     neutral500: '#4a4b53',
     neutral600: '#000000',
+    statusGreen: 'rgba(82, 158, 102, 0.25)',
+    statusYellow: 'rgba(225, 197, 66, 0.25)',
+    statusRed: 'rgba(208, 69, 76, 0.25)',
 };
 
 const fonts = { 

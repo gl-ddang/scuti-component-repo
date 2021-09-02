@@ -4,15 +4,17 @@ import { colors } from '../../../Colors/Colors'
 import Icon from './Icon'
 
 const LabelledButton = styled.button`
-    width: 153px;
-    height: 35px;
-    border: 1px solid white;
-    background-color: ${colors.neutral100};
-
+    width: 175px;
+    height: 20px;
+    border: none;
+    color: ${colors.warning200};
+    background: ${colors.statusYellow};
+    opacity: 0.75;
+    border-radius: 5px;
     span {
-        text-align: right;
+        text-align: left;
         position: relative;
-        top: 25%;
+        left: -43.5px;
     }
 `
 // fixme

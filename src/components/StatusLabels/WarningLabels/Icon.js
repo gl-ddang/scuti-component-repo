@@ -1,14 +1,14 @@
 import React from "react";
-import icon from "./icon-default-button.svg";
-
+import ellipse from "./yellowEllipse.svg";
 import styled from "styled-components";
 
 export const StyledIcon = styled.img`
   float: left;
   position: relative;
-  top: -5px;
+  top: 2px;
+  left: 5px;
 `;
 
 export default function Icon() {
-  return <StyledIcon src={icon} alt="iconImage"></StyledIcon>;
+  return <StyledIcon src={ellipse} alt="yellowEllipse"></StyledIcon>;
 }

@@ -10,7 +10,7 @@ const Button = styled.button`
   height: 42px;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 19.2px;
 
   &:hover {
     text-decoration: ${(props) => (props.hover ? "underline" : "none")};
