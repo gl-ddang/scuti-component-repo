@@ -1,1 +1,1 @@
-React components and their associated StorybookJS stories for the Scuti-Ethereum project
+React components and their associated StorybookJS stories (https://storybook.js.org/docs/react/get-started/introduction) for the Scuti-Ethereum project. CSS with styled-components (https://github.com/styled-components/styled-components) 
